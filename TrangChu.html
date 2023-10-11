@@ -17,31 +17,85 @@
   <body>
     <div class="main">
       <!-- header -->
-      <div class="header">
-        <ul>
-          <li>
-            <a href="">
+      <header class="conteiner-fluid headerLV">
+        <ul id="nav" class="row">
+          <li class="col-sm-1 menu">
+            <a href="" style="display: flex">
               <i class="icon-menu ti-menu"></i>
               <p>Menu</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="col-sm-1 search">
+            <a href="" style="display: flex">
               <i class="icon-search ti-search"></i>
               <p class="search">Tìm kiếm</p>
             </a>
           </li>
-          <li>
+          <li class="col-sm-5 logo">
             <a href="">
-              <img src="./assets/img/anh_menu.png" alt="logo" />
+              <img src="./assets/img/logo.png" alt="logo" style="width: 40%" />
             </a>
           </li>
-          <li><a href="">Liên hệ với chúng tôi</a></li>
-          <li><a href="">Danh sách yêu thích</a></li>
-          <li><a href="">Liên hệ với LV</a></li>
+          <li class="col-sm-1" style="width: 175px">
+            <a href="">Liên hệ với chúng tôi</a>
+          </li>
+          <li class="col-sm-1" style="width: 168px">
+            <a href="">Danh sách yêu thích</a>
+          </li>
+          <li class="col-sm-1">
+            <a href="">My LV</a>
+          </li>
         </ul>
+      </header>
+      <div class="container-fluid content">
+        <div class="row section1">
+          <div class="section-content1">
+            <div class="content1">
+              <div class="header-content1">
+                <h1>Bộ sưu tập Vivienne Holidays</h1>
+              </div>
+              <div class="button1">
+                <div class="button11">
+                  <p>Khám phá thêm</p>
+                </div>
+                <div class="button12">
+                  <p>Xem túi ví da đa năng và phụ kiện da</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row section2">
+          <div class="section-content2">
+            <div class="content2">
+              <div class="header-content2">
+                <h1>Bộ sưu tập Vivienne Holidays</h1>
+              </div>
+              <div class="button2">
+                <div class="button21">
+                  <p>Khám phá thêm</p>
+                </div>
+                <div class="button22">
+                  <p>Xem túi ví da đa năng và phụ kiện da</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <h1>Hello anh em</h1>
   </body>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+          $("header").addClass("sticky");
+        } else {
+          $("header").removeClass("sticky");
+        }
+      });
+    });
+  </script>
 </html>

@@ -20,6 +20,9 @@ ul, .row{
     margin: 0 !important;
     padding: 0 !important;
 }
+/* p{
+    margin:0 !important;
+} */
 /* header */
 .headerLV{
     position: fixed;
@@ -46,6 +49,7 @@ header.sticky{
 }
 .menu{
     padding-left: 48px !important;
+    display: flex;
 }
 .menu a i, .search a i{
     font-size: 18px;
@@ -87,6 +91,7 @@ header.sticky{
     border: 1px solid #fff;
     border-radius: 40px;
     background-color: rgba(25,17,11,.2);
+    cursor: pointer;
 }
 .button11{
     margin-right: 24px;
@@ -129,7 +134,335 @@ header.sticky{
     border: 1px solid #fff;
     border-radius: 40px;
     background-color: rgba(25,17,11,.2);
+    cursor: pointer;
 }
-.button21{
+.button22{
     margin-right: 24px; 
 }
+
+/* section3 */
+.section3{
+    position: relative;
+}
+.section-content3{
+    height: 800px;
+    background: url("../img/trangchu3.webp") top center / cover no-repeat;
+    padding: 0px !important;
+    
+}
+.content3{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7848389355742297) 0%, rgba(255,255,255,0) 39%);
+}
+.header-content3{
+    position: absolute;
+    bottom: 130px;
+    color: #fff;
+    padding-left: 560px;
+}
+ .header-content3>h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.button3{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    padding-left: 430px;
+    display: flex;
+}
+.button31, .button32{
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 58px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: rgba(25,17,11,.2);
+    cursor: pointer;
+}
+.button31{
+    margin-right: 24px; 
+}
+
+/* section4 */
+.section4{
+    position: relative;
+}
+.section-content4{
+    height: 800px;
+    background: url("../img/trangchu4.webp") top center / cover no-repeat;
+    padding: 0px !important;
+    
+}
+.content4{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7848389355742297) 0%, rgba(255,255,255,0) 39%);
+}
+.header-content4{
+    position: absolute;
+    bottom: 130px;
+    color: #fff;
+    padding-left: 510px;
+}
+ .header-content4>h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.button4{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    padding-left: 500px;
+    display: flex;
+}
+.button41, .button42{
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 58px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: rgba(25,17,11,.2);
+    cursor: pointer;
+}
+.button41{
+    margin-right: 24px; 
+}
+
+/* section5 */
+.section5{
+    position: relative;
+}
+.section-content5{
+    height: 800px;
+    background: url("../img/trangchu5.webp") top center / cover no-repeat;
+    padding: 0px !important;  
+}
+.content5{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7848389355742297) 0%, rgba(255,255,255,0) 39%);
+}
+.header-content5{
+    position: absolute;
+    bottom: 130px;
+    color: #fff;
+    padding-left: 500px;
+}
+ .header-content5>h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.button5{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    padding-left: 430px;
+    display: flex;
+}
+.button51, .button52{
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 58px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: rgba(25,17,11,.2);
+    cursor: pointer;
+}
+.button51{
+    margin-right: 24px; 
+}
+/* section6 */
+.section6{
+    position: relative;
+}
+#video1{
+    position:absolute;
+    right: 0;
+    top:0;
+    min-width: 100%;
+    min-width: 100%;
+    padding:0;
+}
+.section-content6{
+    position: relative;
+    height: 856px;
+    padding: 0px !important;  
+}
+.content6{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7848389355742297) 0%, rgba(255,255,255,0) 39%);
+}
+.header-content6{
+    position: absolute;
+    bottom: 130px;
+    color: #fff;
+    padding-left: 571px;
+}
+ .header-content6>h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.button6{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    padding-left: 610px;
+    display: flex;
+}
+.button61, .button62{
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 58px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: rgba(25,17,11,.2);
+    cursor: pointer;
+}
+/* section7 */
+.section7{
+    position: relative;
+}
+#video2{
+    position:absolute;
+    right: 0;
+    top:0;
+    min-width: 100%;
+    min-width: 100%;
+    padding:0;
+}
+.section-content7{
+    position: relative;
+    height: 856px;
+    padding: 0px !important;  
+}
+.content7{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7848389355742297) 0%, rgba(255,255,255,0) 39%);
+}
+.header-content7{
+    position: absolute;
+    bottom: 130px;
+    color: #fff;
+    padding-left: 500px;
+}
+ .header-content7>h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.button7{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    padding-left: 600px;
+    display: flex;
+}
+.button71, .button72{
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 58px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: rgba(25,17,11,.2);
+    cursor: pointer;
+}
+/* section8 */
+.section8{
+    position: relative;
+}
+.section-content8{
+    height: 800px;
+    background: url("../img/trangchu6.webp") top center / cover no-repeat;
+    padding: 0px !important;  
+}
+.content8{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7848389355742297) 0%, rgba(255,255,255,0) 39%);
+}
+.header-content8{
+    position: absolute;
+    bottom: 130px;
+    color: #fff;
+    padding-left: 660px;
+}
+ .header-content8>h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.button8{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    padding-left: 480px;
+    display: flex;
+}
+.button81, .button82{
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 58px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #352b24d6;
+    cursor: pointer;
+}
+.button81{
+    margin-right: 24px; 
+}
+/* tin tuc */
+.tin-tuc{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.tieu-de > h1{
+   font-size: 34px;
+   font-weight: 400;
+   padding-bottom: 40px;
+}
+.img-tin-tuc{
+   width: 100%;
+}
+.tieu-de-tin-tuc{
+   font-size: 20px;
+}
+/* footer */
+.footer{
+    border-top: 1px solid #333;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+/* --------------------------- */
+.dropbtn {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff00;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff00;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {}
+  
+  .show {display: block;}
